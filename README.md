@@ -18,7 +18,7 @@ Install this plugin using your favorite plugin manager, and then call
     "jdrupal-dev/code-refactor.nvim",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     keys = {
-        { "<leader>cc", "<cmd>CodeActions<CR>", desc = "Show code-refactor.nvim (not LSP code actions)" },
+        { "<leader>cc", "<cmd>CodeActions all<CR>", desc = "Show code-refactor.nvim (not LSP code actions)" },
     },
     config = function()
         require("code-refactor").setup({
@@ -27,6 +27,13 @@ Install this plugin using your favorite plugin manager, and then call
     end
 }
 ```
+
+## :rocket: Usage
+
+Run the `:CodeActions all` command to show a select list of available actions under the cursor.
+
+Run `:CodeActions [x]` to run a specific code action.\
+For example: `:CodeActions toggle_arrow_function_braces`.
 
 ## :gear: Configuration
 
