@@ -2,6 +2,8 @@
 
 **code-refactor.nvim** a collection of nifty code actions that do not require a LSP.
 
+### This plugin is under active development, so new languages and actions will be added regularly!
+
 ## :lock: Requirements
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -52,8 +54,6 @@ require("code-refactor").setup({
 ```
 
 ## :sparkles: Available actions 
-
-NB: This plugin is under active development, so new languages and actions will be added regularly.
 
 |                         Name | JavaScript |    PHP     |
 |------------------------------|:----------:|:----------:|
