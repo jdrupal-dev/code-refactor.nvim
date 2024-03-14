@@ -65,4 +65,3 @@ require("code-refactor").setup({
 |               **JavaScript** |            |            |
 |       Convert arrow function |    yes     |            |
 | Toggle arrow function braces |    yes     |            |
-|             Mark as exported |    yes     |            |
