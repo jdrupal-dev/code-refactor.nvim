@@ -4,8 +4,6 @@
 
 https://github.com/jdrupal-dev/code-refactor.nvim/assets/13871894/f559ed26-26a5-4011-8312-e39d31cc907e
 
-### This plugin is under active development, so new languages and actions will be added regularly!
-
 ## :lock: Requirements
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
